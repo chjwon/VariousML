@@ -1,0 +1,7 @@
+gScores_csv = pd.read_csv('datasets/genome-scores.csv')
+print(gScores_csv.info())
+print("\n---\n")
+print(gScores_csv.isna().sum())
+gScores_csv = gScores_csv.dropna()
+print("\n---\n")
+print(gScores_csv.info())

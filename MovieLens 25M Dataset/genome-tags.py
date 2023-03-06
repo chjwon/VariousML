@@ -1,0 +1,7 @@
+gTages_csv = pd.read_csv('datasets/genome-tags.csv')
+print(gTages_csv.info())
+print("\n---\n")
+print(gTages_csv.isna().sum())
+gTages_csv = gTages_csv.dropna()
+print("\n---\n")
+print(gTages_csv.info())

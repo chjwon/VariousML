@@ -1,0 +1,8 @@
+genome-scores.py
+genome-tags.py
+links.py
+movies.py
+ratings.py
+tags.py
+
+is cleaning csv data and return DataFrame

@@ -1,0 +1,7 @@
+ratings_csv = pd.read_csv('datasets/ratings.csv')
+print(ratings_csv.info())
+print("\n---\n")
+print(ratings_csv.isna().sum())
+ratings_csv = ratings_csv.dropna()
+print("\n---\n")
+print(ratings_csv.info())
